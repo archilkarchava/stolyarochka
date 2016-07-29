@@ -1,52 +1,27 @@
-jekyll-gulp-sass-browser-sync
-=============================
+# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
 
-A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-Here's a 1.5min [screencast](http://quick.as/pvrslgx) showing what you get.
+## Getting Started
 
-And here's a GIF showing the CSS injecting.
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/creative/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
+* Fork the repo
 
-![GIF](http://f.cl.ly/items/373y2E0e0i2p0E2O131g/test-gif.gif)
+## Bugs and Issues
 
-## System Preparation
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
 
-To use this starter project, you'll need the following things installed on your machine.
+## Creator
 
-1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
-2. [NodeJS](http://nodejs.org) - use the installer.
-3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-## Local Installation
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `npm install`.
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Usage
+## Copyright and License
 
-**development mode**
-
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
-
-```shell
-$ gulp
-```
-
-**jekyll**
-
-As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/)
-
-## Deploy with Gulp
-
-You can easily deploy your site build to a gh-pages branch. First, follow the instructions at [gulp-gh-pages](https://github.com/rowoot/gulp-gh-pages) to get your branch prepared for the deployment and to install the module. Then, in `gulpfile.js` you'll want to include something like the code below. `gulp.src()` needs to be the path to your final site folder, which by default will be `_site`. If you change the `destination` in your `_config.yml` file, be sure to reflect that in your gulpfile.
-
-
-
-```javascript
-var deploy = require("gulp-gh-pages");
-
-gulp.task("deploy", ["jekyll-build"], function () {
-    return gulp.src("./_site/**/*")
-        .pipe(deploy());
-});
-```
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
